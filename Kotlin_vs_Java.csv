@@ -1,0 +1,24 @@
+﻿,,
+,Java,Kotlin
+Null Safety,Optional,"?.  , elvis(:?), !!"
+"Concurrency, Async","Threads 
+(See also – RxJava, Project Loom)",Threads or Coroutines
+Data Class,"Java 14 – record
+(Lombok also provides a solution, but not built-in in the language)",data class 
+Lazy initialization,need to implement, yes
+Singleton,need to implement, yes
+Implicit Inline Functions, no,yes 
+Switch (When),Java 12,yes – when
+Sealed Classes,Java 15,yes
+Immutable Collections,"Java 9 – List.of, Map.of, Set.of
+Java 10 – toUnmodifiableList(), …","listOf(),
+mutableListOf"
+Type Inference,Java 10 – var,"var, val"
+Extension Function,no,yes
+Named Parameters,no,yes
+Default Value (for method arguments ),no,yes
+The new keyword,yes,no 
+;,yes,no 
+Checked Exceptions,yes,no 
+String,System.out.println(x +” “+ y);,println(“$x $y”)
+Text Block,"Java 13 – """"""",""""""""
